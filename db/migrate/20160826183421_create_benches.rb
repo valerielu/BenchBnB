@@ -6,5 +6,6 @@ class CreateBenches < ActiveRecord::Migration[5.0]
       t.text :description, null: false
       t.timestamps
     end
+
   end
 end
